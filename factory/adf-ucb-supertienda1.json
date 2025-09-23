@@ -1,0 +1,9 @@
+{
+	"name": "adf-ucb-supertienda1",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a009bdd6-4b0b-4207-ab5a-387126117b8b",
+		"tenantId": "cc28633f-12b8-46cb-bc15-951dae239b4d"
+	}
+}
