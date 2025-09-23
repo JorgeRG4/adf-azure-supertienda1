@@ -1,0 +1,17 @@
+{
+	"name": "ls_sql_supertienda_bronze",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sql-ucb-supertienda123.database.windows.net",
+			"database": "supertiendadb-bronze",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "jorge",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU3NUQ1N0VDLUYxOTctNDkxQi1BNzAzLTgzNDA1QzUyN0FGN18wMTRkN2JhNC02ZTk4LTRhNzgtODU0NC01ZGMyNGQ2YjZjYTEiDQp9"
+		}
+	}
+}
